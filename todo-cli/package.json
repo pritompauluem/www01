@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.js?(x)",
+      "**/?(*.)+(spec|test).js?(x)"
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover"
+    ]
+  }
+}
