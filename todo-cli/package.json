@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky"
   },
   "devDependencies": {
     "husky": "^9.1.6"
